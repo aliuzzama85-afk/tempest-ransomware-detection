@@ -1,0 +1,23 @@
+# Kaggle credentials — never commit this
+kaggle.json
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large generated data / model files (optional — remove these lines if you
+# want to commit results/figures to the repo)
+data/raw/
+data/raw2/
+*.h5
+*.keras
